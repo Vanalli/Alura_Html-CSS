@@ -1,0 +1,26 @@
+.portfolio li{
+    font-family: "Crimson Text";
+    font-size: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 8px solid black;
+    background-color: #FAFFFC;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 250px;
+}
+
+.portfolio img{
+    width: 210px;
+}
+
+.descricao-projeto img{
+    width: 200px;
+}
+
+
+.TesteSize{
+    border: 10px solid black;
+    width: 250px;
+}

@@ -1,0 +1,191 @@
+body 
+{ 
+    font-family: "Crimson Text";
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+body div
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+em
+{
+    font-style: italic;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2
+{
+    font-size: 30px;
+    clear: both;
+}
+
+h1,
+h2
+{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.conteudo h1
+{
+    font-size: 60px;
+    color: #FFFFFF;
+    background-color: #851944;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+}
+
+.conteudo div
+{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.recomendacao,
+.navegacao,
+footer
+{
+    padding: 20px;
+}
+
+.rodape-pagina
+{
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+main a
+{
+    color: #851944;
+}
+
+.navegacao
+{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+}
+
+.navegacao h1
+{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.navegacao a
+{
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.links-sociais li{
+    display: inline-block;
+}
+
+.links-sociais a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -100000px;
+}
+
+.github{
+    background-image: url(../images/github.png);
+}
+
+.twitter{
+    background-image: url(../images/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../images/linkedin.png);
+}
+
+main{
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.minha-foto,
+.navegacao{
+    float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.navegacao{
+    clear: right;
+    width: 20%;
+    position: relative;
+    top: 310px;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*
+Botão de pausa
+body div div
+{
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    width: 5px;
+    height: 30px;
+}
+*/
+
+/*
+Gravata borboleta
+body div div
+{
+    border-left: 30px solid red;
+    border-right: 30px solid red;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    width: 0px;
+}
+*/
+
+/*
+Triangulo retângulo
+body div div
+{
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+*/
